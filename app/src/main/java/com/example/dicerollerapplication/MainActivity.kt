@@ -27,12 +27,15 @@ class MainActivity : AppCompatActivity() {
 
         val resultTextView: TextView = findViewById(R.id.textView)
         resultTextView.text = diceRoll.toString()
+
+        // A 10-sided dice for the 2nd textView
+        val dice2 = Dice(10)
+        val diceRoll2 = dice2.roll()
+        val resultTextView2: TextView = findViewById(R.id.textView2)
+        resultTextView2.text = diceRoll2.toString()
+
     }
 }
-
-
-
-
 /**
  * Class of dice with only one attribute: its num of sides.
  */
