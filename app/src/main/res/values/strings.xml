@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DiceRollerApplication</string>
-    <string name="roll">Roll both dice!</string>
+    <string name="roll">Roll those dice!</string>
     <string name="above_you_can_see_a_10_sided_dice_s_roll">Above you can see a 10-sided Dice\'s roll!</string>
     <string name="below_you_can_see_a_6_sided_dice_s_roll">Below you can see a 6-sided dice\'s roll!</string>
 </resources>
